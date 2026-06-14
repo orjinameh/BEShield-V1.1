@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Point directly to your folders relative to this CSS file */
+@source "../components";
+@source "../app";
+
+@theme {
+  --color-surface-base: #070d18;
+  --color-surface-raised: #0c1526;
+  --color-surface-overlay: #111e33;
+  --color-border: #1b2a45;
+  --color-border-hi: #243357;
+  --color-ink: #f0f4fc;
+  --color-ink-secondary: #7a90b8;
+  --color-ink-tertiary: #3d5070;
+  --color-signal: #1b4fd8;
+  --color-signal-dim: #0f2e82;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --surface-base: #070d18;
+  --surface-raised: #0c1526;
+  --surface-overlay: #111e33;
+  --border: #1b2a45;
+  --border-hi: #243357;
+  --ink: #f0f4fc;
+  --ink-secondary: #7a90b8;
+  --ink-tertiary: #3d5070;
+  --signal: #1b4fd8;
+  --signal-dim: #0f2e82;
+  
+  color-scheme: dark;
+}
+
+body {
+  background: var(--surface-base);
+  color: var(--ink);
+}
+
+@keyframes node-enter {
+  from { opacity: 0.15; }
+  to   { opacity: 1; }
+}
