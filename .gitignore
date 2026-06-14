@@ -1,38 +1,26 @@
-# --- Environment Variables (CRITICAL) ---
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js Build Artifacts
+.next/
+out/
+build/
+
+# Environment Variables
 .env
 .env.local
 .env.*.local
-.env.development
-.env.test
-.env.production
 
-# --- Dependencies ---
-node_modules/
-bun.lockb
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-backend/node_modules/
-backend/package-lock.json
-
-# --- Build & Logs ---
-dist/
-build/
-out/
-logs/
-*.log
+# Databases & Logs
+*.sqlite
+*.sqlite-journal
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
 
-# --- Rust / Soroban Artifacts ---
-target/
-**/*.rs.bk
-*.wasm
-
-# --- OS & IDEs ---
+# OS/IDE files
 .DS_Store
-Thumbs.db
 .vscode/
 .idea/
-.history/
