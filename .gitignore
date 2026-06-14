@@ -12,6 +12,8 @@ bun.lockb
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+backend/node_modules/
+backend/package-lock.json
 
 # --- Build & Logs ---
 dist/
