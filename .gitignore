@@ -24,3 +24,7 @@ pnpm-debug.log*
 .DS_Store
 .vscode/
 .idea/
+
+# Rust build artifacts
+target/
+**/*.rs.bk
