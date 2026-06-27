@@ -4,7 +4,7 @@ Live testnet transactions:
 - https://stellar.expert/explorer/testnet/tx/13259049374089216
 - https://stellar.expert/explorer/testnet/tx/13259770928574464
 
-ZK Circuit: /circuits/bft_consensus/src/main.nr
+ZK Circuit: /circuits/src/main.nr
 Research paper: https://zenodo.org/records/20577665
 
 # BEShield: Decentralized Security Oracle for Stellar
