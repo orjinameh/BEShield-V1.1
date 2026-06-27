@@ -1,0 +1,6 @@
+[package]
+name = "bft_consensus"
+type = "bin"
+authors = [""]
+
+[dependencies]
