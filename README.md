@@ -1,3 +1,12 @@
+## Stellar Hacks: Real-World ZK Submission
+
+Live testnet transactions:
+- https://stellar.expert/explorer/testnet/tx/13259049374089216
+- https://stellar.expert/explorer/testnet/tx/13259770928574464
+
+ZK Circuit: /circuits/bft_consensus/src/main.nr
+Research paper: https://zenodo.org/records/20577665
+
 # BEShield: Decentralized Security Oracle for Stellar
 
 **BEShield is a decentralized security oracle that leverages AI to audit email communications and enforce transaction safety for Stellar-based escrow contracts, mitigating phishing risks at the protocol level.**
